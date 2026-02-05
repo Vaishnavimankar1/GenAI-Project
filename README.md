@@ -2,6 +2,8 @@
 
 A production-ready multi-agent system that demonstrates a multi-agent architecture
 for planning, executing, and verifying travel-related queries using real-world APIs.
+This project was built as a hands-on learning exercise to understand
+multi-agent system design, API orchestration, and error handling in real-world conditions.
 
 
 ## 🏗️ Architecture
@@ -10,7 +12,7 @@ This system implements a **three-agent architecture**:
 
 ### 1. **Planner Agent** 🧠
 - **Role**: Analyzes user queries and creates structured execution plans
-- **Technology**: Claude Sonnet 4.5 with structured JSON output
+- **Technology**: Deterministic planning logic
 - **Output**: Step-by-step execution plan with API calls
 
 ### 2. **Executor Agent** ⚡
@@ -22,7 +24,7 @@ This system implements a **three-agent architecture**:
 
 ### 3. **Verifier Agent** ✓
 - **Role**: Validates execution results for completeness and accuracy
-- **Technology**: Claude Sonnet 4.5 for intelligent verification
+- **Technology**:Rule-based verification logic
 - **Output**: Verification report with completeness score
 
 ### Orchestrator

@@ -1,4 +1,4 @@
-# TrulyMadly GenAI Assignment - Multi-Agent Travel Planning System
+# Multi-Agent Travel Planning System
 
 A production-ready multi-agent system that demonstrates a multi-agent architecture
 for planning, executing, and verifying travel-related queries using real-world APIs.
@@ -233,51 +233,10 @@ Try these queries when running the application:
 The system validates:
 - ✅ Multi-agent coordination
 - ✅ Real API integration (no hardcoded responses)
-- ✅ Structured output from LLM
+- ✅  Structured output from planner logic
 - ✅ End-to-end query processing
 - ✅ Error handling and recovery
 
-## 📁 Project Structure
-```
-trulymadly-genai-assignment/
-├── main.py                 # Main application with all agents
-├── requirements.txt        # Python dependencies
-├── .env.example           # Environment variables template
-├── .env                   # Your actual API keys (gitignored)
-└── README.md              # This file
-```
 
-## 🚀 Future Enhancements
 
-1. **Additional APIs**: Flight booking, hotel pricing, reviews
-2. **Caching Layer**: Redis for API response caching
-3. **Async Execution**: Parallel API calls for better performance
-4. **Web Interface**: Streamlit or FastAPI frontend
-5. **Multi-day Itineraries**: Extended planning capabilities
-6. **Budget Optimization**: Price comparison across options
 
-## 📞 Support
-
-For questions about this implementation:
-- Review the code comments in `main.py`
-- Check API documentation links in this README
-- Test with the example prompts provided
-
-## ✅ Submission Checklist
-
-- [x] Multi-agent design (Planner, Executor, Verifier)
-- [x] LLM with structured outputs (Claude Sonnet 4.5)
-- [x] 2+ real third-party APIs (OpenWeather + Google Places)
-- [x] Complete end-to-end execution
-- [x] No hardcoded responses
-- [x] README with setup instructions
-- [x] .env.example file
-- [x] Architecture explanation
-- [x] API list
-- [x] Example test prompts
-- [x] Known limitations
-- [x] Runs with single command
-
----
-
-**Built for TrulyMadly GenAI Intern Assignment**
